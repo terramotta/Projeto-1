@@ -63,7 +63,7 @@
 
 A partir daí, é hora de realizar a ligação elétrica, conforme diagrama feito no fritzing, do arduino com o resto do circuito, além de fazer a conexão do voltímetro de LED.
 
-![Sensor Hold](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Esquemas/pcb%20sensor%20hold%20esquematico.png)
+![Sensor Hold](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Esquemas/ldr%20esquematico.png?raw=true)
 
 
 
