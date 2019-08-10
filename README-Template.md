@@ -79,9 +79,5 @@ Obs: Ele também possui uma [loja](https://www.browndoggadgets.com/collections/n
 
 
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
 * etc
 
