@@ -63,6 +63,12 @@
 
 A partir daí, é hora de realizar a ligação elétrica, conforme diagrama feito no fritzing, do arduino com o resto do circuito, além de fazer a conexão do voltímetro de LED.
 
+![Sensor Hold](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Esquemas/pcb%20sensor%20hold%20esquematico.png)
+
+
+
+![Esquematico](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Esquemas/esquematico.png)
+
 
 ## Realizando Testes
 
@@ -92,7 +98,7 @@ Por ser um projeto didático e que representa uma possível aplicação em pain�
 Contudo, ao se pensar que o tempo entre o nascer e o por do sol é muito grande, os servo-motores gastarão pouca energia para mover o painel uma unica vez de um lado para o outro.
 
 Na exemplificação dessa aplicação na vida real, as baterias domiciliares de grande porte e integradas a um sistema de painéis solares, como as produzidas pela Tesla Motors, normalmente ficam o dia inteiro carregando e podem ser usadas para alimentar o chuveiro elétrico na parte da noite, ou alimentar um carro elétrico.
-
+![Tesla PowerWall](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Imagens%20Gerais/tesla%20powerwall.webp)
 
 
 ## Créditos
