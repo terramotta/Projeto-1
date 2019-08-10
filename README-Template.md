@@ -2,7 +2,7 @@
 
 # Descrição
 
-  ![Projeto De Frente](Imagens/Imagens Gerais/capa.jpg)
+  ![](Imagens/Imagens Gerais/capa.jpg)
 
 
   !Projeto De Costas](Imagens/Imagens Gerais/costas.jpg)
