@@ -34,9 +34,6 @@
 
 
 
-```
-Give examples
-```
 
 ### Instalação
 
@@ -44,19 +41,8 @@ Em primeiro lugar, deve-se posicionar o Shield e o Sensor Holder,
 
 Após obter as peças de madeira individuais, deve-se seguir o passo a passo [deste vídeo do Youtube](https://www.youtube.com/watch?v=ehgPL8rRmDY) para que se construa a parte estrutural do projeto.
 
-A partir daí, é hora de realizar a ligação elétrica, conforme diagrama feito no fritzing, do arduino com o resto do circuito, além de conectá-lo ao display de 7 segmentos.
+A partir daí, é hora de realizar a ligação elétrica, conforme diagrama feito no fritzing, do arduino com o resto do circuito, além de fazer a conexão do voltímetro de LED.
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Realizando Testes
 
@@ -74,49 +60,24 @@ No geral, se algo não funciar, as seguintessituações podem ter ocorrido:
 - Código não teve seu upload para dentro do Arduino. (Nesse caso tambem o Arduino não fará nada)
 
 
-### Break down into end to end tests
+## Ônus e Bônus do Projeto
 
-Explain what these tests test and why
+Por ser um projeto didático e que representa uma possível aplicação em painéis solares de grande escala, a bateria alimentada pelo painel solar atual (6v 200mA) demora muito tempo para chegar a carga total.
 
-```
-Give an example
-```
+Contudo, ao se pensar que o tempo entre o nascer e o por do sol é muito grande, os servo-motores gastarão pouca energia para mover o painel uma unica vez de um lado para o outro.
 
-### And coding style tests
+Na exemplificação dessa aplicação na vida real, as baterias domiciliares de grande porte e integradas a um sistema de painéis solares, como as produzidas pela Tesla Motors, normalmente ficam o dia inteiro carregando e podem ser usadas para alimentar o chuveiro elétrico na parte da noite, ou alimentar um carro elétrico.
 
-Explain what these tests test and why
 
-```
-Give an example
-```
 
-## Deployment
+## Créditos
 
-Add additional notes about how to deploy this on a live system
+O projeto PCB do Arduino Shield e do Sensor Holder, somados com seus diagramas, foram confeccionados por [Brown Dog Gadgets
+](https://github.com/BrownDogGadgets), a quem tiro meu chapéu. Este também responsável pelo código inicial ".ino" e pela paciente e clara explicação em seu projeto [Dual Axis Solar Tracker](https://github.com/BrownDogGadgets/SolarTracker/tree/master/Dual%20Axis%20Tracker).
+Obs: Ele também possui uma [loja](https://www.browndoggadgets.com/collections/new-solar/products/dual-axis-smart-solar-tracker).
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
