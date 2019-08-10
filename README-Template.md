@@ -10,10 +10,6 @@
   É importante ressaltar também que essa versão com uma placa solar pequena é feita didaticamente e representa um sistema real de alimentação por placas solares de grande porte em uma casa ou um carro elétrico, por exemplo.
 
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Pré-requisitos
 
   Primeiramente, faz-se necessário:
@@ -21,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
   
   - 4 Servo-Motores (2 x 9G)
   
-  - 1 Shield Arduino Personalizado
+  - 1 Shield Arduino Personalizado (cabeças de pinos e resistores de 10000 ohm)
   
   - 1 Shield personalizado para segurar os sensores (Sensor Holder PCB)
   
@@ -29,7 +25,9 @@ These instructions will get you a copy of the project up and running on your loc
   
   - 4 Conjuntos de Cabo Jumper (Fêmea-Fêmea)
   
-  - Display de 7 Segmentos com 3 Dígitos
+  - Voltímetro de LED
+  
+  - Cédula Solar (6V 200mA)
   
   - Acesso a uma impressora 3D ou Cortadora à laser ou Fresadora Router CNC
   
