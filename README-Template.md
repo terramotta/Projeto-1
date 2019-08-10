@@ -19,15 +19,17 @@ These instructions will get you a copy of the project up and running on your loc
   Primeiramente, faz-se necessário:
   - Arduino Uno e sua IDE
   
-  - 4 Servo-Motores
+  - 4 Servo-Motores (2 x 9G)
   
   - 1 Shield Arduino Personalizado
   
-  - 1 Shield personalizado para segurar os sensores
+  - 1 Shield personalizado para segurar os sensores (Sensor Holder PCB)
   
   - 4 Sensores LDR (PHOTOCELL 3K-11K OHM 5.10MM)
   
   - 4 Conjuntos de Cabo Jumper (Fêmea-Fêmea)
+  
+  - Display de 7 Segmentos com 3 Dígitos
   
   - Acesso a uma impressora 3D ou Cortadora à laser ou Fresadora Router CNC
   
@@ -40,7 +42,11 @@ Give examples
 
 ### Instalação
 
-Após obter as peças de madeira da estruturação, deve seguir o passo a passo do vídeo [Youtube](https://www.youtube.com/watch?v=ehgPL8rRmDY)
+Em primeiro lugar, deve-se posicionar o Shield e o Sensor Holder, 
+
+Após obter as peças de madeira individuais, deve-se seguir o passo a passo [deste vídeo do Youtube](https://www.youtube.com/watch?v=ehgPL8rRmDY) para que se construa a parte estrutural do projeto.
+
+A partir daí, é hora de realizar a ligação elétrica, conforme diagrama feito no fritzing, do arduino com o resto do circuito, além de conectá-lo ao display de 7 segmentos.
 
 ```
 Give the example
@@ -54,9 +60,21 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Realizando Testes
 
-Explain how to run the automated tests for this system
+Existe apenas um teste que deve ser feito para ver se o sistema está funcionando.
+Utilize uma lanterna para simular o sol sob os sensores LDR, faça um movimento horizontal ou vertical e observe se o painel solar se movimento seguindo a fonte de luz.
+
+No geral, se algo não funciar, as seguintessituações podem ter ocorrido:
+
+- Jumpers conectados errado, tenha certeza que os sensores estão indo na ordem certa para o shield. (Nesse caso o painel não lhe seguiria na direção certa)
+
+- Servo-Motor estragado. (Nesse caso você ouvirá um barulho de metal vindo de dentro do motor)
+
+- Arduino pode não estar ligado à um cabo de alimentação USB (Nesse caso o Arduino não fará nada)
+
+- Código não teve seu upload para dentro do Arduino. (Nesse caso tambem o Arduino não fará nada)
+
 
 ### Break down into end to end tests
 
