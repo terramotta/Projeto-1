@@ -27,7 +27,7 @@
   ![Arduino Shield](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Imagens%20Gerais/arduino%20shield%20mundo%20real.png?raw=true)
   
   
-  ![Arduino Shield Esq](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Esquemas/arduino%20shield%20pcb%20esquematico.png
+  ![Arduino Shield Esq](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Esquemas/arduino%20shield%20pcb%20esquematico.png)
   
   - 1 Shield personalizado para segurar os sensores (Sensor Holder PCB) Obs: 4 Sensores LDR (PHOTOCELL 3K-11K OHM 5.10MM)
   
@@ -102,9 +102,3 @@ Na exemplificação dessa aplicação na vida real, as baterias domiciliares de 
 
 
 Obs: Ele também possui uma [loja](https://www.browndoggadgets.com/collections/new-solar/products/dual-axis-smart-solar-tracker).
-
-
-
-
-* etc
-
