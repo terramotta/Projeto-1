@@ -5,7 +5,7 @@
   ![](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Imagens%20Gerais/capa.jpg?raw=true)
 
 
-  !Projeto De Costas](Imagens/Imagens Gerais/costas.jpg)
+  ![Projeto De Costas](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Imagens%20Gerais/costas.jpg?raw=true)
 
   O projeto consiste em um painel solar móvel que, por meio de um microcontrolador Arduino Uno, detecta onde há maior incidência de luz solar e se move para tal ponto. Tal projeto pode ser usado, por exemplo, para alimentar baterias de pequeno porte do aeromodelismo, como baterias de liPo de drones. O projeto ainda conta com um display de 7 segmentos que mostra o nível tensão da placa solar.
 
@@ -24,34 +24,34 @@
   
   - 1 Shield Arduino Personalizado (cabeças de pinos e resistores de 10000 ohm)
   
-  ![Arduino Shield](Imagens/Esquemas/arduino shield mundo real.png)
+  ![Arduino Shield](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Imagens%20Gerais/arduino%20shield%20mundo%20real.png?raw=true)
   
   
-  ![Arduino Shield Esq](Imagens/Esquemas/arduino shield pcb esquematico.png)
+  ![Arduino Shield Esq](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Esquemas/arduino%20shield%20pcb%20esquematico.png
   
   - 1 Shield personalizado para segurar os sensores (Sensor Holder PCB) Obs: 4 Sensores LDR (PHOTOCELL 3K-11K OHM 5.10MM)
   
-  ![Sensor Hold](Imagens/Esquemas/pcb sensor hold real.png)
+  ![Sensor Hold](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Imagens%20Gerais/pcb%20sensor%20hold%20real.png)
   
   
-  ![Sensor Hold Esq](Imagens/Esquemas/pcb sensor hold esquematico.png)
+  ![Sensor Hold Esq](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Esquemas/arduino%20shield%20pcb%20esquematico.png?raw=true)
   
   
 
   - 4 Conjuntos de Cabo Jumper (Fêmea-Fêmea)
   
-    ![Cabos, PCB's, Motores, Arduino](Imagens/Imagens Gerais/eletronica.jpg)
+    ![Cabos, PCB's, Motores, Arduino](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Imagens%20Gerais/eletronica.jpg)
     
   
   - Voltímetro de LED
     
-    ![LED Voltímetro](Imagens/Imagens Gerais/led voltimetro.jpg)  
+    ![LED Voltímetro](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Imagens%20Gerais/led%20voltimetro.jpg)  
   
   - Cédula Solar (6V 200mA)
   
   - Acesso a uma impressora 3D (ou Cortadora à laser ou Fresadora Router CNC) para obtenção das peças estruturais.
   
-    ![Peças da Estrutura](Imagens/Imagens Gerais/estruturas.jpg)
+    ![Peças da Estrutura](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Imagens%20Gerais/estruturas.jpg)
   
 
 
@@ -78,6 +78,11 @@ No geral, se algo não funciar, as seguintessituações podem ter ocorrido:
 - Arduino pode não estar ligado à um cabo de alimentação USB (Nesse caso o Arduino não fará nada)
 
 - Código não teve seu upload para dentro do Arduino. (Nesse caso tambem o Arduino não fará nada)
+
+![GIF1](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/GIFs/gif%201.gif)
+
+
+![GIF2](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/GIFs/gif%202.gif)
 
 
 ## Ônus e Bônus do Projeto
