@@ -1,14 +1,27 @@
-# Project Title
+# Projeto: Painel Solar + Detecção da Posição do Sol
 
-One Paragraph of project description goes here
+# Descrição
+
+  O projeto consiste em um painel solar móvel que, por meio de um microcontrolador Arduino Uno, detecta onde há maior incidência de luz solar e se move para tal ponto. Tal projeto pode ser usado, por exemplo, para alimentar baterias de pequeno porte do aeromodelismo, como baterias de liPo de drones. O projeto ainda conta com um display de 7 segmentos que mostra o nível tensão da placa solar.
+
+## No futuro
+
+  No futuro, espero aplicar à esse projeto uma integração de interface com internet, utilizando um raspberry Pi, que disponibilizaria um diagnóstico de como está funcionando a placa solar (dados como potência, correntes, tensão da placa e, se houver uma bateria sendo carregada, o nível de carga da mesma).
+  É importante ressaltar também que essa versão com uma placa solar pequena é feita didaticamente e representa um sistema real de alimentação por placas solares de grande porte em uma casa ou um carro elétrico, por exemplo.
+
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Pré-requisitos
 
-What things you need to install the software and how to install them
+  Primeiramente, faz-se necessário:
+  - Arduino Uno e sua IDE
+  - 4 Servo-Motores
+  
+
+
 
 ```
 Give examples
