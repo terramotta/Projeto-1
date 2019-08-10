@@ -2,6 +2,11 @@
 
 # Descrição
 
+  ![Projeto De Frente](Imagens/Imagens Gerais/capa.jpg)
+
+
+  !Projeto De Costas](Imagens/Imagens Gerais/costas.jpg)
+
   O projeto consiste em um painel solar móvel que, por meio de um microcontrolador Arduino Uno, detecta onde há maior incidência de luz solar e se move para tal ponto. Tal projeto pode ser usado, por exemplo, para alimentar baterias de pequeno porte do aeromodelismo, como baterias de liPo de drones. O projeto ainda conta com um display de 7 segmentos que mostra o nível tensão da placa solar.
 
 ## No futuro
@@ -19,17 +24,34 @@
   
   - 1 Shield Arduino Personalizado (cabeças de pinos e resistores de 10000 ohm)
   
-  - 1 Shield personalizado para segurar os sensores (Sensor Holder PCB)
+  ![Arduino Shield](Imagens/Esquemas/arduino shield mundo real.png)
   
-  - 4 Sensores LDR (PHOTOCELL 3K-11K OHM 5.10MM)
   
+  ![Arduino Shield Esq](Imagens/Esquemas/arduino shield pcb esquematico.png)
+  
+  - 1 Shield personalizado para segurar os sensores (Sensor Holder PCB) Obs: 4 Sensores LDR (PHOTOCELL 3K-11K OHM 5.10MM)
+  
+  ![Sensor Hold](Imagens/Esquemas/pcb sensor hold real.png)
+  
+  
+  ![Sensor Hold Esq](Imagens/Esquemas/pcb sensor hold esquematico.png)
+  
+  
+
   - 4 Conjuntos de Cabo Jumper (Fêmea-Fêmea)
   
+    ![Cabos, PCB's, Motores, Arduino](Imagens/Imagens Gerais/eletronica.jpg)
+    
+  
   - Voltímetro de LED
+    
+    ![LED Voltímetro](Imagens/Imagens Gerais/led voltimetro.jpg)  
   
   - Cédula Solar (6V 200mA)
   
-  - Acesso a uma impressora 3D ou Cortadora à laser ou Fresadora Router CNC
+  - Acesso a uma impressora 3D (ou Cortadora à laser ou Fresadora Router CNC) para obtenção das peças estruturais.
+  
+    ![Peças da Estrutura](Imagens/Imagens Gerais/estruturas.jpg)
   
 
 
@@ -37,9 +59,7 @@
 
 ### Instalação
 
-Em primeiro lugar, deve-se posicionar o Shield e o Sensor Holder, 
-
-Após obter as peças de madeira individuais, deve-se seguir o passo a passo [deste vídeo do Youtube](https://www.youtube.com/watch?v=ehgPL8rRmDY) para que se construa a parte estrutural do projeto.
+  Em primeiro lugar, deve-se posicionar as peças de madeira individuais, deve-se seguir o passo a passo [deste vídeo do Youtube](https://www.youtube.com/watch?v=ehgPL8rRmDY) para que se construa a parte estrutural do projeto. 
 
 A partir daí, é hora de realizar a ligação elétrica, conforme diagrama feito no fritzing, do arduino com o resto do circuito, além de fazer a conexão do voltímetro de LED.
 
