@@ -18,7 +18,18 @@ These instructions will get you a copy of the project up and running on your loc
 
   Primeiramente, faz-se necessário:
   - Arduino Uno e sua IDE
+  
   - 4 Servo-Motores
+  
+  - 1 Shield Arduino Personalizado
+  
+  - 1 Shield personalizado para segurar os sensores
+  
+  - 4 Sensores LDR (PHOTOCELL 3K-11K OHM 5.10MM)
+  
+  - 4 Conjuntos de Cabo Jumper (Fêmea-Fêmea)
+  
+  - Acesso a uma impressora 3D ou Cortadora à laser ou Fresadora Router CNC
   
 
 
@@ -27,11 +38,9 @@ These instructions will get you a copy of the project up and running on your loc
 Give examples
 ```
 
-### Installing
+### Instalação
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Após obter as peças de madeira da estruturação, deve seguir o passo a passo do vídeo [Youtube](https://www.youtube.com/watch?v=ehgPL8rRmDY)
 
 ```
 Give the example
