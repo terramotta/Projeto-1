@@ -34,7 +34,7 @@
   ![Sensor Hold](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Imagens%20Gerais/pcb%20sensor%20hold%20real.png)
   
   
-  ![Sensor Hold Esq](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Esquemas/arduino%20shield%20pcb%20esquematico.png?raw=true)
+  ![Sensor Hold Esq](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Esquemas/arduino%20shield%20pcb%20esquematico.png)
   
   
 
@@ -97,8 +97,10 @@ Na exemplificação dessa aplicação na vida real, as baterias domiciliares de 
 
 ## Créditos
 
-O projeto PCB do Arduino Shield e do Sensor Holder, somados com seus diagramas, foram confeccionados por [Brown Dog Gadgets
+  O projeto PCB do Arduino Shield e do Sensor Holder, somados com seus diagramas, foram confeccionados por [Brown Dog Gadgets
 ](https://github.com/BrownDogGadgets), a quem tiro meu chapéu. Este também responsável pelo código inicial ".ino" e pela paciente e clara explicação em seu projeto [Dual Axis Solar Tracker](https://github.com/BrownDogGadgets/SolarTracker/tree/master/Dual%20Axis%20Tracker).
+
+
 Obs: Ele também possui uma [loja](https://www.browndoggadgets.com/collections/new-solar/products/dual-axis-smart-solar-tracker).
 
 
