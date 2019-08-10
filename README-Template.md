@@ -2,7 +2,7 @@
 
 # Descrição
 
-  ![](Imagens/Imagens Gerais/capa.jpg)
+  ![](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Imagens%20Gerais/capa.jpg?raw=true)
 
 
   !Projeto De Costas](Imagens/Imagens Gerais/costas.jpg)
