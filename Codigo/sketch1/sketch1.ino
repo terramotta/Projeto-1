@@ -1,15 +1,15 @@
 // 180 horizontal MAX
 Servo horizontal; // servo horizontal
-int servoh = 90;   // 90;     // stand horizontal servo
+int servoh = 90;   // 90;     // posição padrão do servo horizontal
 
-int servohLimitHigh = 180;
+int servohLimitHigh = 180; //range máximo do servo horizontal 
 int servohLimitLow = 65;
 
 // 65 degrees MAX
 Servo vertical;   // servo vertical 
-int servov = 90;    //   90;     // stand vertical servo
+int servov = 90;    //   90;     // posição padrão do servo vertical
 
-int servovLimitHigh = 120;
+int servovLimitHigh = 120; //range máximo do servo vertical
 int servovLimitLow = 15;
 
 
@@ -26,9 +26,9 @@ void setup() {
   Serial.begin(9600);
 // servo connections
 // name.attacht(pin);
-  horizontal.attach(9); 
-  vertical.attach(10);
-  horizontal.write(180);
+  horizontal.attach(9); // função da biblioteca servo, anexa o servo à um pino.
+  vertical.attach(10); 
+  horizontal.write(180); // função da biblioteca servo, isso definirá o ângulo do eixo (em graus), movendo o eixo para essa orientação.
   vertical.write(45);
   delay(3000);
 }
@@ -47,13 +47,13 @@ void loop() {
   int dtime = 10;
   int tol = 50;
   
-  int avt = (lt + rt) / 2; // average value top
-  int avd = (ld + rd) / 2; // average value down
-  int avl = (lt + ld) / 2; // average value left
-  int avr = (rt + rd) / 2; // average value right
+  int avt = (lt + rt) / 2; // valor médio no topo.
+  int avd = (ld + rd) / 2; // valor médio em baixo.
+  int avl = (lt + ld) / 2; // valor médio na esquerda.
+  int avr = (rt + rd) / 2; // valor médio na direita.
 
-  int dvert = avt - avd; // check the diffirence of up and down
-  int dhoriz = avl - avr;// check the diffirence og left and rigt
+  int dvert = avt - avd; // checa a diferença entre a parte superior e inferior.
+  int dhoriz = avl - avr;// checa a diferença entre a parte da esquerda e da direita.
   
   
   Serial.print(avt);
