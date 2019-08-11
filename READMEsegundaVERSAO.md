@@ -59,6 +59,11 @@
 
 ### Instalação
 
+
+        ![](https://github.com/terramotta/Projeto-1/blob/master/Imagens/Imagens%20Gerais/fritzing%20definitivo.png)
+
+
+
   Em primeiro lugar, deve-se posicionar as peças de madeira individuais, deve-se seguir o passo a passo [deste vídeo do Youtube](https://www.youtube.com/watch?v=ehgPL8rRmDY) para que se construa a parte estrutural do projeto. 
 
 A partir daí, é hora de realizar a ligação elétrica, conforme diagrama feito no fritzing, do arduino com o resto do circuito, além de fazer a conexão do voltímetro de LED.
