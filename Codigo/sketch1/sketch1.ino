@@ -1,15 +1,15 @@
 // 180 horizontal MAX
-Servo horizontal; // servo horizontal
-int servoh = 90;   // 90;     // posição padrão do servo horizontal
+Servo horizontal; // servo horizontal.
+int servoh = 90;   // 90;     // posição padrão do servo horizontal.
 
-int servohLimitHigh = 180; //range máximo do servo horizontal 
+int servohLimitHigh = 180; // range máximo do servo horizontal .
 int servohLimitLow = 65;
 
 // 65 degrees MAX
-Servo vertical;   // servo vertical 
-int servov = 90;    //   90;     // posição padrão do servo vertical
+Servo vertical;   // servo vertical.
+int servov = 90;    //   90;     // posição padrão do servo vertical.
 
-int servovLimitHigh = 120; //range máximo do servo vertical
+int servovLimitHigh = 120; // range máximo do servo vertical.
 int servovLimitLow = 15;
 
 
