@@ -18,7 +18,7 @@
 ### Pré-requisitos
 
   Primeiramente, faz-se necessário:
-  - Arduino Uno e sua IDE
+  - Arduino Uno e sua IDE (em conjunto com a biblioteca servo.h)
   
   - 4 Servo-Motores (2 x 9G)
   
