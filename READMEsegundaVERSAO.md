@@ -59,8 +59,8 @@
 
 ### Instalação
 
-
-        ![](https://github.com/terramotta/Projeto-1/blob/master/Imagens/Imagens%20Gerais/fritzing%20definitivo.png)
+![ffz](https://github.com/terramotta/Projeto-1/blob/master/Imagens/Imagens%20Gerais/fritzing%20definitivo.png)
+       
 
 
 
