@@ -34,7 +34,7 @@
   ![Sensor Hold](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Imagens%20Gerais/pcb%20sensor%20hold%20real.png)
   
   
-  ![Sensor Hold Esq](https://github.com/terramotta/Projeto-1/blob/readme-edit/Imagens/Esquemas/arduino%20shield%20pcb%20esquematico.png)
+  ![Sensor Hold Esq](https://github.com/terramotta/Projeto-1/blob/master/Imagens/Esquemas/pcb%20sensor%20hold%20esquematico.png?raw=true)
   
   
 
