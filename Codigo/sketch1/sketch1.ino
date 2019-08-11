@@ -71,7 +71,7 @@ void loop() {
   
   if ((avt < 30 && avd < 30) && (avl > 30 && avr > 30)){
   Serial.println("No Sun Detected!") ;
-  }else if (-1*tol > dvert || dvert > tol) // check if the diffirence is in the tolerance else change vertical angle
+  }else if (-1*tol > dvert || dvert > tol) // checa se a diferença está dentro da tolerância, else-> muda o angulo)
   {
   if (avt > avd)
   {
