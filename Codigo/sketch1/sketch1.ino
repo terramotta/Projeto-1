@@ -15,7 +15,7 @@ int servovLimitLow = 15;
 
 // conexão dos pinos do LDR
 //  name  = analogpin;
-int ldrlt = 2; //LDR top left - BOTTOM LEFT    <--- BDG
+int ldrlt = 2; //LDR top left - BOTTOM LEFT 
 int ldrrt = 3; //LDR top rigt - BOTTOM RIGHT 
 int ldrld = 0; //LDR down left - TOP LEFT
 int ldrrd = 1; //ldr down rigt - TOP RIGHT
@@ -92,7 +92,7 @@ void loop() {
   vertical.write(servov);
   }
   
-  if (-1*tol > dhoriz || dhoriz > tol) // check if the diffirence is in the tolerance else change horizontal angle
+  if (-1*tol > dhoriz || dhoriz > tol) // checa se a diferença está dentro da tolerância, else muda o ângulo horizontal
   {
   if (avl > avr)
   {
