@@ -5,7 +5,7 @@ int servoh = 90;   // 90;     // posição padrão do servo horizontal.
 int servohLimitHigh = 180; // range máximo do servo horizontal .
 int servohLimitLow = 65;
 
-// 65 degrees MAX
+// 65 graus MAX
 Servo vertical;   // servo vertical.
 int servov = 90;    //   90;     // posição padrão do servo vertical.
 
@@ -24,7 +24,7 @@ int ldrrd = 1; //ldr down rigt - TOP RIGHT
 void setup() {
   
   Serial.begin(9600);
-// servo connections
+// conexões do servo
 // name.attacht(pin);
   horizontal.attach(9); // função da biblioteca servo, anexa o servo à um pino.
   vertical.attach(10); 
@@ -42,7 +42,7 @@ void loop() {
   int ld = analogRead(ldrld); // down left
   int rd = analogRead(ldrrd); // down rigt
   
-  // int dtime = analogRead(4)/20; // read potentiometers  
+  // int dtime = analogRead(4)/20; // lê os potenciometros
   // int tol = analogRead(5)/4;
   int dtime = 10;
   int tol = 50;
@@ -70,7 +70,7 @@ void loop() {
   Serial.println(" ");
   
   if ((avt < 30 && avd < 30) && (avl > 30 && avr > 30)){
-  Serial.println("No Sun Detected!") ;
+  Serial.println("O sol não foi detetado") ;
   }else if (-1*tol > dvert || dvert > tol) // checa se a diferença está dentro da tolerância, else-> muda o angulo)
   {
   if (avt > avd)
@@ -112,7 +112,7 @@ void loop() {
   }
   else if (avl = avr)
   {
-    // nothing
+    // nada
   }
   horizontal.write(servoh);
   }
